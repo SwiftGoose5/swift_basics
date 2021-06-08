@@ -30,6 +30,8 @@ class ViewController: NSViewController {
             self?.fourth.stringValue = String(Int.random(in: 0...9))
             
             count += 1
+            
+            Printer.printThis()
         }
 
         // Do any additional setup after loading the view.
@@ -49,5 +51,11 @@ class ViewController: NSViewController {
     }
 
 
+}
+
+class Printer {
+    static func printThis() {
+        print("Time to choose Mr. Freeman")
+    }
 }
 
