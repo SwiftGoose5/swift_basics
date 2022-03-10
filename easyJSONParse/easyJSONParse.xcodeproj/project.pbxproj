@@ -13,6 +13,7 @@
 		525C597426534E85003891F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525C597226534E85003891F1 /* Main.storyboard */; };
 		529EA07826535BBC00036D53 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EA07726535BBC00036D53 /* Crypto.swift */; };
 		529EA07A26535BD700036D53 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529EA07926535BD700036D53 /* API.swift */; };
+		8B77CF0727DA49C60044A74D /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77CF0627DA49C60044A74D /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		525C597626534E85003891F1 /* easyJSONParse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = easyJSONParse.entitlements; sourceTree = "<group>"; };
 		529EA07726535BBC00036D53 /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		529EA07926535BD700036D53 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		8B77CF0627DA49C60044A74D /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				525C596E26534E83003891F1 /* ViewController.swift */,
 				529EA07726535BBC00036D53 /* Crypto.swift */,
 				529EA07926535BD700036D53 /* API.swift */,
+				8B77CF0627DA49C60044A74D /* APIError.swift */,
 				525C597026534E85003891F1 /* Assets.xcassets */,
 				525C597226534E85003891F1 /* Main.storyboard */,
 				525C597526534E85003891F1 /* Info.plist */,
@@ -141,6 +144,7 @@
 				529EA07826535BBC00036D53 /* Crypto.swift in Sources */,
 				525C596F26534E83003891F1 /* ViewController.swift in Sources */,
 				529EA07A26535BD700036D53 /* API.swift in Sources */,
+				8B77CF0727DA49C60044A74D /* APIError.swift in Sources */,
 				525C596D26534E83003891F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftGoose.easyJSONParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,6 +311,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				PRODUCT_BUNDLE_IDENTIFIER = SwiftGoose.easyJSONParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
